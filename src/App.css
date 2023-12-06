@@ -1,38 +1,75 @@
-.App {
+body {
+  font-family: 'Inter', sans-serif;
+  text-align: center; 
+  max-width: 850px;
+  margin-left: 300px;
+}
+
+.navbar {
   text-align: center;
+  margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+  font-family: 'Newsreader', serif;
+  font-style: italic;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.citytab {
+  background-color: #77ffd0b2;
 }
 
-.App-link {
-  color: #61dafb;
+.workspace-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-bottom: 0.5rem;
+  margin-top: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.workspace-address {
+  font-size: 1rem;
+  color: #939a92;
+  margin-bottom: 10px;
+}
+
+.review {
+  background-color: #f9ffb6;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.admin-table th, .admin-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.admin-table th {
+  background-color: #f2f2f2;
+}
+
+h1, h2, h3, p {
+  margin-bottom: 15px;
+}
+
+button {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.table {
+  margin-top: 20px;
 }

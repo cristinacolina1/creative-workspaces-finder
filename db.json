@@ -1,0 +1,83 @@
+{
+  "workspaces": [
+    {
+      "id": 1,
+      "city": "New York",
+      "name": "The Writers Room",
+      "description": "New York City's and the nation's first nonprofit, shared writing work space – open 24 hours a day, 365 days a year.",
+      "address": "740 Broadway, New York, NY 10003"
+    },
+    {
+      "id": 2,
+      "city": "New York",
+      "name": "Brooklyn Creative League",
+      "description": "A co-working community of freelancers, journalists, and startups, providing a quiet and collaborative space.",
+      "address": "540 President St, Brooklyn, NY 11215"
+    },
+    {
+      "id": 7,
+      "city": "New York",
+      "name": "Green Desk",
+      "description": "Eco-friendly co-working space, offering a modern environment with green practices at its core.",
+      "address": "155 Water St, Brooklyn, NY 11201"
+    },
+    {
+      "id": 8,
+      "city": "San Francisco",
+      "name": "Impact Hub",
+      "description": "A vibrant community of professionals and creatives focused on making a positive impact in the world.",
+      "address": "1885 Mission St, San Francisco, CA 94103"
+    },
+    {
+      "id": 4,
+      "city": "San Francisco",
+      "name": "The Assembly",
+      "description": "A community space offering a supportive environment with an emphasis on wellness and creativity.",
+      "address": "449 14th St, San Francisco, CA 94103"
+    },
+    {
+      "id": 5,
+      "city": "Los Angeles",
+      "name": "Second Home Hollywood",
+      "description": "A unique workspace surrounded by gardens, offering a serene environment for creativity and collaboration.",
+      "address": "1370 N St Andrews Pl, Los Angeles, CA 90028"
+    },
+    {
+      "id": 6,
+      "city": "Los Angeles",
+      "name": "WeWork La Brea",
+      "description": "Part of the global WeWork chain, offering stylish spaces for professionals and creatives in the heart of LA.",
+      "address": "925 N La Brea Ave, Los Angeles, CA 90038"
+    },
+    {
+      "id": 9,
+      "city": "Los Angeles",
+      "name": "The Hive",
+      "description": "A dynamic and creative environment for entrepreneurs, with a mix of private offices and open spaces.",
+      "address": "729 S Los Angeles St, Los Angeles, CA 90014"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 3,
+      "workspaceId": 2,
+      "name": "Alice Johnson",
+      "rating": 5,
+      "review": "Perfect for collaborative projects."
+    },
+    {
+      "workspaceId": 5,
+      "name": "Cristina Colina",
+      "rating": 5,
+      "review": "My favoritie co-working space in LA!",
+      "id": 4
+    },
+    {
+      "workspaceId": 6,
+      "name": "Cristina C",
+      "rating": 5,
+      "review": "Leave a review! i liked it.",
+      "id": 6
+    }
+  ]
+}
