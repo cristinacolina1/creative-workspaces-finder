@@ -40,7 +40,7 @@ const WorkspaceDetail = () => {
         {isBookmarked ? 'Remove Bookmark' : 'Add Bookmark'}
       </button>}
       <p>{workspace && workspace.description}</p>
-      <h2>Reviews</h2>
+      <h2>Reviews</h2>np
       {reviews.length > 0 ? reviews.map(review => (
         <div key={review.id}>
           <p>{review.name}: {review.review}</p>

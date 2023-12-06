@@ -18,7 +18,7 @@ const useBookmarks = () => {
     }
   };
 
-  const removeBookmark = (workspaceId) => {
+   const removeBookmark = (workspaceId) => {
     setBookmarks(bookmarks.filter(b => b.id !== workspaceId));
   };
 
